@@ -25,7 +25,7 @@ import { Input } from "@/components/ui/input";
 
 const formSchema = z.object({
   email: z.email("Email inválido"),
-  nome: z.string().min(5, "A nome precisa ter pelo menos 5 caracteres."),
+  nome: z.string().min(1, "A nome não pode ficar vazio."),
   senha: z.string().min(5, "A senha precisa ter pelo menos 5 caracteres."),
 });
 

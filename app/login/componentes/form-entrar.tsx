@@ -93,7 +93,7 @@ export function FormEntrar() {
           </FieldGroup>
 
           <Field orientation="vertical">
-            <Button type="submit">Criar</Button>
+            <Button type="submit">Entrar</Button>
           </Field>
         </form>
       </CardContent>
